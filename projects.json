@@ -7,6 +7,25 @@
     "skills": ["React", "Express.js", "CSS"],
     "description": "A web app to help inform users about what toxic chemicals may be in their everyday lives."
     
+},
+{
+    "name":"Plush LaMode",
+    "live":"https://plushlamode.herokuapp.com/",
+    "git":"https://github.com/Jordintaylor095/PlushLaMode",
+    "image":"https://i.imgur.com/E3EOYaC.png",
+    "skills":["Django/Python Fullstack","Materialize","Heroku","PostgreSQL","MongoDB"],
+    "description":"An app displaying dresses and accesories and allows users to customize their choices."
+
+},
+
+{
+    "name":"Beauty Bar",
+    "live":"https://beauty-bar.herokuapp.com/",
+    "git":"https://github.com/Jordintaylor095/BeautyBar",
+    "image":"https://i.imgur.com/ibij2K0.png",
+    "skills":["EJS","CSS","MongoDB","Mongoose","Postman","Node.js","Materialize"],
+    "description":"This site is intended to be for a beauty spa to store and display their client data."
+
 }
 
 

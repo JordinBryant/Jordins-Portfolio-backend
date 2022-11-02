@@ -1,9 +1,21 @@
 // Import Dependencies
+
+
 const express = require("express");
 const cors = require("cors");
-
+const mongoose = require("mongoose");
 // Import JSON file
 const projects = require("./projects.json");
+
+
+
+
+
+// mongodb error / success 
+const db = mongoose.connection
+db.on('error', (err) => console.log(`${err.message} is Mongod not running?`))
+db.on('connected', () => console.log('mongo connected'))
+db.on('disconnected', () => console.log('mongo disconnected'))
 
 
 // Create our app object
