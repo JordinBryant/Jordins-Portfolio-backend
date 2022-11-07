@@ -1,9 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
-  
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
@@ -22,5 +20,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordintaylor095/Jordins-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jordintaylor095/Jordins-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Jordintaylor095/Jordins-Portfolio#readme",
+  "description": ""
 }
